@@ -6,6 +6,8 @@ Version: 0.1
 Author:Remco Meinen
 Tags: awesome, cool, theBest
 */
+
+/* Mobiel */
 @media only screen and (min-width : 150px) and (max-width : 480px) {
 	body {
 	  height: 100%;
@@ -73,6 +75,8 @@ Tags: awesome, cool, theBest
 	  width:100%;
 	}
 }
+
+/* PC */
 @media only screen and (min-width : 480px) {
 	body {
 	  height: 100%;
