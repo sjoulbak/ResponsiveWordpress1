@@ -1,0 +1,156 @@
+/*
+Theme Name: Simple theme om responsive themes te leren maken
+Theme URI: http://remcomeinen.nl/
+Description: First responsive theme.
+Version: 0.1
+Author:Remco Meinen
+Tags: awesome, cool, theBest
+*/
+@media only screen and (min-width : 150px) and (max-width : 480px) {
+	body {
+	  height: 100%;
+	  margin: 0;
+	  padding: 0;
+	  background-color: #EFF3F5;
+	}
+
+	#logo {
+	  max-width:100%;
+	  height:100%;
+	  background:url('images/logo.png');
+	}
+	
+	#container {
+	  margin: 0 auto;
+	  padding: 0;
+	}
+
+	#header {
+	  height: 150px;
+	  background-color:white;
+	  width:auto;
+	}
+	
+	#menubalk {
+	  font-size: 1.143em;
+	}
+
+	#menubalk ul {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	#menubalk ul li a {
+	  text-decoration:none;
+	  display:block;
+	  line-height: 30px;
+	  width: 100%;
+	  text-align: center;
+	  background: #d4d700;
+	  color:black;
+	}
+
+	#menubalk ul li a:hover {
+		background-color:#9ec31d;
+		color:black;
+	}
+
+	#content {
+	  height: auto;
+	  background: white;
+	  width:100%;
+	}
+
+	#sidebar {
+	  height: auto;
+	  background: #45a12a;
+	  width:100%;
+	}
+
+	#footer {
+	  height: auto;
+	  background: red;
+	  width:100%;
+	}
+}
+@media only screen and (min-width : 480px) {
+	body {
+	  height: 100%;
+	  margin: 0;
+	  padding: 0;
+	  background-color: #EFF3F5;
+	}
+	
+	#container {
+	  min-width:480px;
+	  max-width:960px;
+	  margin: 0px auto;
+	  padding: 0;
+	}
+	
+	#header {
+	  height: 150px;
+	  background-color:white;
+	  width:100%;
+	}
+	
+	#logo {
+	  width: auto;
+	  height:100%;
+	  background:url('images/logo.png') no-repeat;
+	  background-color: #EFF3F5;
+	}
+	
+	#menubalk {
+	  font-size: 1.143em;
+	}
+
+	#menubalk ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+	}
+
+	#menubalk ul li {
+	  text-decoration: none;
+	  display: inline-block;
+	  width:33.3333333%;
+	  float: left;
+	 }
+	
+	#menubalk ul li a {
+	  text-decoration:none;
+	  display: block;
+	  line-height: 30px;
+
+	  text-align: center;
+	  background: #d4d700;
+	  color:black;
+	}
+
+	#menubalk ul li a:hover {
+		background-color:#9ec31d;
+		color:black;
+	}
+	
+	#content {
+	  float:left;
+	  margin:0;
+	  padding:0;
+	  height: auto;
+	  background: white;
+	  width:100%;
+	}
+
+	#sidebar {
+	  height: auto;
+	  background: #45a12a;
+	  width:100%;
+	}
+
+	#footer {
+	  height: auto;
+	  background: white;
+	  width:100%;
+	}
